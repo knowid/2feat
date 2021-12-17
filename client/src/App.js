@@ -28,16 +28,16 @@ class App extends React.Component{
         <NavBar/> */}
 
         <Routes>
-          <Route component={<Home />} path='/' exact/>
-          <Route component={<Login/>} path='/login' exact/>
-          <Route component={<About/>} path='/about'/>
+          <Route element={<Home />} path='/' exact/>
+          <Route element={<Login/>} path='/login' exact/>
+          <Route element={<About/>} path='/about'/>
 
-          <Route component={<AddPost/>} path='/addpost'/>
-          <Route component={<ShowAllPost/>} path='/showallpost'/>
-          <Route component={<AddCatagory/>} path='/addcatagory'/>
-          <Route component={<ShowAllCatagory/>} path='/showallcatagory'/>
+          <Route element={<AddPost/>} path='/addpost'/>
+          <Route element={<ShowAllPost/>} path='/showallpost'/>
+          <Route element={<AddCatagory/>} path='/addcatagory'/>
+          <Route element={<ShowAllCatagory/>} path='/showallcatagory'/>
 
-          <Route component={<SinglePost/>} path='/single/:id'/>  
+          <Route element={<SinglePost/>} path='/single/:id'/>  
 
           
         </Routes>
