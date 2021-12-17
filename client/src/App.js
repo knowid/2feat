@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Route,Switch} from "react-router-dom";
+import {BrowserRouter, Route,Routes} from "react-router-dom";
 
 import Home from './components/home';
 import NavBar from './components/navBar';
@@ -27,20 +27,20 @@ class App extends React.Component{
 
         <NavBar/> */}
 
-        <Switch>
-          <Route component={Home} path='/' exact/>
-          <Route component={Login} path='/login' exact/>
-          <Route component={About} path='/about'/>
+        <Routes>
+          <Route component={<Home />} path='/' exact/>
+          <Route component={<Login/>} path='/login' exact/>
+          <Route component={<About/>} path='/about'/>
 
-          <Route component={AddPost} path='/addpost'/>
-          <Route component={ShowAllPost} path='/showallpost'/>
-          <Route component={AddCatagory} path='/addcatagory'/>
-          <Route component={ShowAllCatagory} path='/showallcatagory'/>
+          <Route component={<AddPost/>} path='/addpost'/>
+          <Route component={<ShowAllPost/>} path='/showallpost'/>
+          <Route component={<AddCatagory/>} path='/addcatagory'/>
+          <Route component={<ShowAllCatagory/>} path='/showallcatagory'/>
 
-          <Route component={SinglePost} path='/single/:id'/>  
+          <Route component={<SinglePost/>} path='/single/:id'/>  
 
           
-        </Switch>
+        </Routes>
   
         <Footer/>
       </BrowserRouter>
