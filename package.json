@@ -1,0 +1,28 @@
+{
+  "name": "2feat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowid/2feat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knowid/2feat/issues"
+  },
+  "homepage": "https://github.com/knowid/2feat#readme",
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2"
+  }
+}
