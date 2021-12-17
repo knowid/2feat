@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# 2 F.E.A.T
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> LINK TO APP
 
-## Available Scripts
+2 F.E.A.T is a website that lists down the blog posts and lets us read the description about the related blogs. Apart from that, it allows visitors to see posts by categories and through search functionality too. 2 F.E.A.T has an admin area too which is accessible after logging into the website. The admin panel allows an admin user to manage blog posts and categories too with ease.
 
-In the project directory, you can run:
+## Technologies used
+- HTML (Version: HTML5)
+- CSS (Version: CSS3)
+- Javascript ( Node JS for the backend)
+- MongoDB ( Used as a database )
+- Cloudinary ( Cloud hosting service for images )
+- React ( Used in the frontend )
+- Heroku ( Used for the deployment )
 
-### `npm start`
+### Installation
+- Clone the repository
+- Go inside the project folder by typing "cd 2feat" on the terminal
+- Type the command "npm install && cd client && npm install"
+- Create a .env folder inside the project folder with the keys MONGODB_URI which you get from your mongodb cluster and CLOUD_NAME, CLOUD_API_KEY AND CLOUD_API_SECRET which you get fromm cloudinary.
+- Now you can run the project locally. "node server.js" for running the backend and inside the client folder "npm start" to run the frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### user stories
+Mostly, our users would be teenagers or young aged group people who are sneaker lovers. Our website will provide information about different shoes that are trending on the market so that users don't need to spend hours figuring out the better matching shoes for themselves.
+>
+As a visitor of the website (2 F.E.A.T), they should be able to read the description about the blog they want using READ MORE button on the webpage as well as be able to see the multiple images associated with the post along with the post description.
 
-### `npm test`
+> As a visitor, they'll explore the blog posts on the website whenever they wish to buy sneakers so that they can get ideas on what type of sneaker will best suit them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> As a visitor, they would be able to search (filter) products that are defined (added) by admin to get the blog post that is associated with the tags which will make the website more friendly to the users and benefit them from a different perspective like informing the user about the quality of the sneaker, price ranges, and so on...
 
-### `npm run build`
+##### Future features
+- Able to integrate online shop services that can process online payments, and keep track of order and it's status.
+- Show trending sneakers.
+- More advanced filters to filter out the blog posts by date.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> WIREFRAME LINK: All the wireframes are present on the same project folder with name wireframes.
